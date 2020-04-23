@@ -4,7 +4,11 @@
   "description": "In this lab, you'll be **working in groups of 2-4 students** to implement OAuth for some chosen third party provider *OTHER THAN* GitHub. Your group must use the provided [starter code](https://github.com/codefellows/seattle-javascript-401n16/tree/master/class-12/lab-a/starter-code) to integrate your OAuth provider, and you must then assess and report on that provider's ease-of-use.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
   },
   "repository": {
     "type": "git",
