@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "In this lab, you'll be **working in groups of 2-4 students** to implement OAuth for some chosen third party provider *OTHER THAN* GitHub. Your group must use the provided [starter code](https://github.com/codefellows/seattle-javascript-401n16/tree/master/class-12/lab-a/starter-code) to integrate your OAuth provider, and you must then assess and report on that provider's ease-of-use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randee-401-advanced-javascript/lab12-0auth.git"
+  },
+  "author": "Sian Culligan Madison Stehle Randee Orion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randee-401-advanced-javascript/lab12-0auth/issues"
+  },
+  "homepage": "https://github.com/randee-401-advanced-javascript/lab12-0auth#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "jsonwebtoken": "^8.5.1",
+    "superagent": "^5.2.2",
+    "swagger": "^0.7.5"
+  }
+}
