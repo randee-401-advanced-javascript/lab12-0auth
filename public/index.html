@@ -11,13 +11,14 @@
 
         <script>
             // TODO: What is this URL used for?
-            let URL = 'https://github.com/login/oauth/authorize';
+            let URL = 'https://dev-91omc5qe.auth0.com/authorize';
 
             // TODO: What do each of these key-value pairs mean?
             let options = {
-                client_id: '35e8de24061ca19f4296',
+                client_id: '8gdoH2LeewXcqpgdGubBOV0S0qHGfTr4',
                 redirect_uri: 'http://localhost:3000/oauth',
-                scope: 'read:user',
+                response_type: 'code',
+                scope: 'openid profile email',
                 state: 'asldfjdfs',
             };
 
