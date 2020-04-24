@@ -10,10 +10,16 @@
         </main>
 
         <script>
-            // TODO: What is this URL used for?
+            // DONE: What is this URL used for?
+            // accessing the oauth api also the authorization end point
             let URL = 'https://dev-91omc5qe.auth0.com/authorize';
 
-            // TODO: What do each of these key-value pairs mean?
+            // DONE: What do each of these key-value pairs mean?
+            // client_id - applications id who OUR server is
+            // redirect_uri - serverside url where the api lands once it has generated the code. 
+            // response_type - what we are expecting back
+            // scope - what kind of data we have asked for
+            // state - random string to make sure all is well
             let options = {
                 client_id: '8gdoH2LeewXcqpgdGubBOV0S0qHGfTr4',
                 redirect_uri: 'https://gitauthoed.herokuapp.com/oauth',
@@ -22,7 +28,8 @@
                 state: 'asldfjdfs',
             };
 
-            // TODO: What is this map function doing?
+            // DONE: What is this map function doing?
+            //Creating the query string 
             let QueryString = Object.keys(options)
                 .map((key) => {
                     return `${key}=` + encodeURIComponent(options[key]);
