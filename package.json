@@ -22,7 +22,7 @@
   "homepage": "https://github.com/randee-401-advanced-javascript/lab12-0auth#readme",
   "dependencies": {
     "base-64": "^0.1.0",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
